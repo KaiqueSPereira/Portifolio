@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const router = express.Router(); 
 
-router.get('/', function(req, res) {
+router.get('/Portifolio', function(req, res) {
     res.sendFile(path.join(__dirname+'/templates/index.html'));
 })
 router.get('/MGrelhas', function(req, res) {
