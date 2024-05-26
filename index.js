@@ -9,7 +9,9 @@ router.get('/', function(req, res) {
 router.get('/MGrelhas', function(req, res) {
     res.sendFile(path.join(__dirname+'/templates/MGrelhas.html'));
 })
-
+router.get('/Prontuario', function(req, res) {
+    res.sendFile(path.join(__dirname+'/templates/PEp.html'));
+})
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', router);
 app.listen(process.env.port || 3000);
