@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Crisação de um portifólio para apresentar os projetos desenvolvedor Kaique de Souza Pereira ",
   "main": "index.js",
-  "scripts": {
+    "engines": {
+      "node": "16.13.1"
+    },
+     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kaique de Souza Pereira",
